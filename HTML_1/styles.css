@@ -1,0 +1,107 @@
+#signup {
+    background-color: #faedcd;
+    color: #023047
+}
+
+#signin {
+    background-color: #a8dadc;
+    color: #f77f00;
+}
+
+h1 {
+    text-decoration: #264653 wavy underline;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #003049;
+}
+
+.tag {
+    background-color: azure;
+    color: coral;
+}
+
+section p {
+    color: darkred;
+}
+
+/* .duck-styles ol {
+    background-color: rgb(96, 97, 172);
+} */
+
+h2+p {
+    background-color: aqua;
+}
+
+ol>li {
+    color: coral;
+    font-size: 20px;
+}
+
+input[type="password"] {
+    color: rgb(233, 6, 6);
+}
+
+a[href*="reddit"] {
+    background-color: gold;
+}
+
+a[href$="ABOUT.html"] {
+    background-color: azure;
+}
+
+#Poem a[href*="reddit"]:hover {
+    color: magenta;
+}
+
+#Poem {
+    margin-top: 100px;
+}
+
+h5::first-letter {
+    font-size: 40px;
+    color: #d90429;
+}
+
+h4::selection {
+    background-color: #fb8500;
+}
+
+/* h3::shadow {
+    background-color: #c8b6ff !important;
+} */
+
+.duck-styles::after {
+    content: "<-POND DUCK";
+    font-size: 50px;
+    color: #0077b6;
+}
+
+.duck-styles::before {
+    content: "POND DUCK->";
+    font-size: 50px;
+    color: #0077b6;
+}
+
+button:hover {
+    font-size: large;
+    size: 50px;
+    background-color: pink;
+    color: gold;
+}
+
+.user_button {
+    color: #d90429;
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+/* button {
+    color: inherit;
+} */

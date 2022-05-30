@@ -1,0 +1,25 @@
+h2 {
+    text-align: center;
+    /* font-weight: 200; */
+    color: #7f57a3;
+    background-color: rgb(234, 136, 30);
+    /* letter-spacing: 40px; */
+    font-size: 20px;
+}
+
+p {
+    color: magenta;
+    background-color: cyan;
+    text-decoration: dotted;
+    letter-spacing: 5px;
+    line-height: 2;
+}
+
+button {
+    color: lightcyan;
+    background-color: peru;
+}
+
+body {
+    background-color: #fce;
+}
