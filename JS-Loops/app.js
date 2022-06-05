@@ -1,6 +1,6 @@
 let message = parseInt(prompt("Enter the maximum number!"));
 while (!message) {
-    message = parseInt(promt("Enter a valid number!"));
+    message = parseInt(prompt("Enter a valid number!"));
 }
 const targetNum = Math.floor((Math.random() * message)) + 1;
 
